@@ -1,0 +1,42 @@
+:root {
+  font-family: "Readex Pro", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  transition: 100ms ease;
+}
+
+.body {
+  height: 100vh;
+  overflow: hidden;
+  background-color: rgb(58, 94, 111);
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1%;
+}
+
+.buttons {
+  width: 10rem;
+  height: 1rem;
+  padding: 2%;
+  border: solid 1px #fff;
+  border-radius: 2%;
+  background-color: rgb(58, 94, 111);
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons-hover {
+  background-color: #fff;
+  color: rgb(58, 94, 111);
+}
+
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+}
